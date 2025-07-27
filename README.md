@@ -1,143 +1,70 @@
-# Freelancing-Application-MERN
- The Freelancer Application is a full-stack web platform developed using the MERN (MongoDB, Express.js, React.js, Node.js) technology stack. It is designed to connect freelancers with clients by providing a simple and secure system to register, post, and apply for freelance jobs. The platform supports two types of users — Freelancers and Clients — and offers role-specific features to both.
+# Getting Started with Create React App
 
-This application demonstrates robust CRUD operations, secure user authentication, role-based navigation, MongoDB integration, and a clean user interface. It can be used as a real-world prototype or portfolio project showcasing full-stack development skills.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
----
+In the project directory, you can run:
 
-🎯 Core Objectives
+### `npm start`
 
-Allow freelancers to register, log in, and apply for jobs.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Enable clients to register, log in, and post freelance job openings.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Provide a simple, user-friendly interface to manage tasks for both roles.
+### `npm test`
 
-Store all user and job data securely in MongoDB.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-⚙ Key Functionalities
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-🔐 Authentication:
+### `npm run eject`
 
-User registration and login for both Freelancers and Clients.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Role-based registration with fields like name, email, password, and user role.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Form validation and feedback alerts.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-👩‍💻 Freelancer Features:
+## Learn More
 
-Register and log in to the portal.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-View list of available job postings.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Apply for jobs with one click.
+### Code Splitting
 
-See applied jobs and application history.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
 
-🧑‍💼 Client Features:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Register and log in as a client.
+### Making a Progressive Web App
 
-Post freelance jobs with title, description, budget, and deadline.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Manage job posts (edit/delete).
+### Advanced Configuration
 
-View list of freelancers who applied.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+### Deployment
 
-📦 Backend (Node.js + Express):
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-RESTful APIs for user authentication and job management.
+### `npm run build` fails to minify
 
-MongoDB database connection using Mongoose.
-
-Routes for registration, login, post job, apply job, etc.
-
-
-🌐 Frontend (React.js):
-
-Role-based forms (Freelancer/Client).
-
-Navigation bar with conditional rendering based on login status.
-
-Components for Login, Register, Dashboard, Post Job, Apply Job, etc.
-
-Responsive design using Bootstrap or custom CSS.
-
-
-💾 Database (MongoDB):
-
-Two collections: Users and Jobs.
-
-Mongoose schema and model validation.
-
-Atlas cloud-hosted database connection.
-
-
-
----
-
-🧪 Tested User Flow
-
-1. A new freelancer signs up using their email, sets a password, and selects their role.
-
-
-2. A client registers and posts a new freelance job.
-
-
-3. Freelancer logs in and views the job listings.
-
-
-4. Freelancer applies for a job.
-
-
-5. Client sees the list of applicants.
-
-
-
-
----
-
-🛡 Security & Best Practices
-
-Passwords are securely stored using hashing (if implemented).
-
-CORS enabled for cross-origin requests.
-
-Environment variables used to protect MongoDB URI.
-
-
-
----
-
-📝 Technologies Used
-
-Category	Technology
-
-Frontend	React.js, HTML, CSS, Bootstrap
-Backend	Node.js, Express.js
-Database	MongoDB (Mongoose)
-Hosting	Can be deployed to GitHub, Vercel, Render, or Netlify
-Tools	VS Code, Postman, Git, GitHub
-
-
-
----
-
-💡 Project Highlights
-
-Full MERN-stack integration with role-based functionality.
-
-Practical application of frontend/backend API communication.
-
-Real-world freelance job board simulation.
-
-Clean UI with simple user experience
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
